@@ -396,23 +396,23 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: green;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: #FF0000;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: #ec84ec;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: #0c42f1be;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: #df4609fd;
 }
 
 /* ============================================= */
@@ -461,7 +461,7 @@ a {
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #ec84ec;
 }
 
 /* ============================================= */
@@ -483,7 +483,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid green;
 }
 
 .img-logo {
