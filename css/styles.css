@@ -428,7 +428,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #ec84ec;
 }
 
 .hidden {
@@ -460,7 +460,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #fff;
+  color: #000;
   background-color: #ec84ec;
 }
 
