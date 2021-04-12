@@ -1,6 +1,8 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+$base: #fff;
+$base-light: lighten($base, 15%);
 
 .btn {
     margin-top: 15px;
@@ -10,6 +12,11 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
+    &:hover {
+        background-color: $base-light;
+        opacity: 0.5;
+    }
 }
 
 .default {
