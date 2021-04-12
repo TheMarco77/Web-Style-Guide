@@ -1,9 +1,6 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-$base: #fff;
-$base-light: lighten($base, 15%);
-
 .btn {
     margin-top: 15px;
     width: 100%;
@@ -12,29 +9,44 @@ $base-light: lighten($base, 15%);
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-
-    &:hover {
-        background-color: $base-light;
-        opacity: 0.5;
-    }
 }
 
 .default {
     background-color: $defaultGreen; //original color => #51ddfc
+
+    &:hover {
+        background-color: lighten($defaultGreen, 15%);
+    }
 }
 
 .error {
     background-color: $errorRed; //original color => #e4757a;
+
+    &:hover {
+        background-color: lighten($errorRed, 15%);
+    }
 }
 
 .info {
     background-color: $infoPurple; // //original color => #927bc1;
+
+    &:hover {
+        background-color: lighten($infoPurple, 15%);
+    }
 }
 
 .success {
     background-color: $successBlue; //original color => #63cc82;
+
+    &:hover {
+        background-color: lighten($successBlue, 15%);
+    }
 }
 
 .warning {
-    background-color: $warningColor; //original color => #fd7856
+    background-color: $warningColor; //original color => #fd7856;
+
+    &:hover {
+        background-color: lighten($warningColor, 15%);
+    }
 }

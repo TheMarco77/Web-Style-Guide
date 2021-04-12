@@ -394,29 +394,40 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-.btn:hover {
-  background-color: white;
-  opacity: 0.5;
-}
 
 .default {
   background-color: green;
+}
+.default:hover {
+  background-color: #00cd00;
 }
 
 .error {
   background-color: #FF0000;
 }
+.error:hover {
+  background-color: #ff4d4d;
+}
 
 .info {
   background-color: #ec84ec;
+}
+.info:hover {
+  background-color: #f6c6f6;
 }
 
 .success {
   background-color: #0c42f1be;
 }
+.success:hover {
+  background-color: rgba(83, 122, 246, 0.7450980392);
+}
 
 .warning {
   background-color: #df4609fd;
+}
+.warning:hover {
+  background-color: rgba(247, 114, 61, 0.9921568627);
 }
 
 /* ============================================= */
